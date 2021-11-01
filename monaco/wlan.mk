@@ -46,6 +46,9 @@ QC_WIFI_HIDL_FEATURE_DUAL_AP := true
 #Enable cal delete feature
 TARGET_CAL_DATA_CLEAR := true
 
+#Disable Perf tuner in cnss-daemon
+TARGET_USES_NO_CNSS_DP := true
+
 # Enable vendor properties.
 PRODUCT_PROPERTY_OVERRIDES += \
 	wifi.aware.interface=wifi-aware0
